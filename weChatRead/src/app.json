@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/find/main",
+    "pages/bookshelf/main",
+    "pages/story/main",
+    "pages/my/main",
+    "pages/counter/main",
+    "pages/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信读书",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#8B7E66",
+    "selectedColor": "#0000CD",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/find/main",
+        "iconPath": "static/tabs/find.png",
+        "selectedIconPath": "static/tabs/find-active.png",
+        "color": "white",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/bookshelf/main",
+        "iconPath": "static/tabs/bookshelf.png",
+        "selectedIconPath": "static/tabs/bookshelf-active.png",
+        "color": "white",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/story/main",
+        "iconPath": "static/tabs/story.png",
+        "selectedIconPath": "static/tabs/story-active.png",
+        "color": "white",
+        "text": "故事"
+      },
+      {
+        "pagePath": "pages/my/main",
+        "iconPath": "static/tabs/wo.png",
+        "selectedIconPath": "static/tabs/wo-active.png",
+        "color": "white",
+        "text": "我"
+      }
+    ]
+  }
+}
